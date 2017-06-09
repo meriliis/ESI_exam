@@ -23,6 +23,6 @@ public class PropertyReservationRequest {
     BusinessPeriod reservationPeriod;
 
     @ManyToOne
-    Property plant;
+    Property property;
 
 }
